@@ -1,5 +1,5 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 865px;
+  min-height: 1085px;
 }
 
 .u-section-1 .u-text-1 {
@@ -7,7 +7,7 @@
   width: 606px;
   font-weight: 700;
   font-family: "Fugaz One";
-  margin: 60px auto 0;
+  margin: 280px auto 0;
 }
 
 .u-section-1 .u-text-2 {
@@ -23,6 +23,11 @@
   height: 285px;
   margin-top: 20px;
   margin-bottom: 0;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
 }
 
 .u-section-1 .u-group-1 {
