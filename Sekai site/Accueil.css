@@ -1,0 +1,128 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 1085px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 4.5rem;
+  width: 606px;
+  font-weight: 700;
+  font-family: "Fugaz One";
+  margin: 280px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  line-height: 1.6;
+  width: 611px;
+  text-decoration: underline !important;
+  font-style: italic;
+  font-weight: 700;
+  margin: 20px auto 0;
+}
+
+.u-section-1 .u-image-1 {
+  height: 285px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
+}
+
+.u-section-1 .u-group-1 {
+  width: 748px;
+  min-height: 316px;
+  height: auto;
+  margin: -18px auto 60px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-1 .u-text-3 {
+  line-height: 2;
+  font-size: 1rem;
+  margin: 0 1px;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: solid;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  background-image: none;
+  font-weight: 700;
+  font-family: "Fugaz One";
+  margin: 30px auto 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-group-1 {
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-left: 57px;
+    margin-right: 57px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: auto;
+    margin-left: 55px;
+    margin-right: 55px;
+  }
+
+  .u-section-1 .u-group-1 {
+    min-height: 339px;
+    width: 605px;
+    margin-bottom: 17px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 804px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 30px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-group-1 {
+    min-height: 371px;
+    width: 466px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    font-size: 2.25rem;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 340px;
+  }
+}
