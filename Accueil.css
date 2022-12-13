@@ -245,11 +245,19 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1721px;
+    min-height: 1736px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 41px;
+    margin-left: 97px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    margin-top: 313px;
+    width: 340px;
+    margin-top: 44px;
+    margin-right: -2px;
+    margin-left: auto;
   }
 
   .u-section-1 .u-image-1 {
@@ -266,5 +274,10 @@
 
   .u-section-1 .u-image-4 {
     min-height: 252px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-top: 41px;
+    margin-bottom: 30px;
   }
 }

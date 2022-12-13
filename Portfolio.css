@@ -36,6 +36,27 @@
   .u-section-1 .u-btn-2 {
     margin-right: 0;
   }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-btn-2 {
+    margin-top: 20px;
+    margin-bottom: initial;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 336px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 42px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin: 31px auto 42px 0;
+  }
 }.u-section-2 .u-sheet-1 {
   min-height: 470px;
 }
