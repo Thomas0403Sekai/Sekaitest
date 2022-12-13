@@ -15,7 +15,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 476px auto 0 20px;
+  margin: 407px auto 0 20px;
 }
 
 .u-section-1 .u-image-1 {
@@ -51,7 +51,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: -136px auto 29px 89px;
+  margin: -161px auto 60px 89px;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -135,7 +135,6 @@
   .u-section-1 .u-group-1 {
     width: 431px;
     margin-top: -93px;
-    margin-bottom: 60px;
     margin-left: 73px;
   }
 }
