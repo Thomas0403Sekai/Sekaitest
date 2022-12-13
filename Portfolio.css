@@ -50,10 +50,15 @@
   }
 
   .u-section-1 .u-btn-1 {
-    padding: 6px 23px 7px 22px;
+    margin-top: 29px;
+    margin-left: 50px;
+    padding: 6px 50px 7px;
   }
 
   .u-section-1 .u-btn-2 {
+    margin-top: 29px;
+    margin-right: auto;
+    margin-left: 50px;
     padding: 6px 23px 7px 22px;
   }
 }.u-section-2 .u-sheet-1 {
