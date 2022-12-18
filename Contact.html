@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Contact.css">
+</head>
+<body>
+    <section class="get_in_touch">
+        <h1 class="title">Contactez Nous</h1>
+
+        <div class="container">
+            <div class="contact-form row">
+                <div class="form-field col-lg-6">
+                    <input name="name" class="input-text" placeholder="Nom Prénom">
+                    <label for="name" class="label"></label>
+                </div>
+                <div class="form-field col-lg-6">
+                    <input name="email" class="input-text" placeholder="Email">
+                    <label for="email" class="label"></label>
+                </div>
+                <div class="form-field col-lg-6">
+                    <input name="phone" class="input-text" placeholder="N° Téléphone">
+                    <label for="phone" class="label"></label>
+            
+                </div>
+                <div class="form-field col-lg-6">
+                    <input name="company" class="input-text" placeholder="Entreprise(facultatif)">
+                    <label for="company" class="label"></label>
+                </div>
+                <div class="form-field col-lg-12">
+                    <input name="message" class="input-text"  placeholder="Message">
+                    <label for="message" class="label"></label>
+                </div>
+                <div class="form-field col-lg-12">
+                    <input class="submit-btn" type="Submit" value="Envoyer" name="">
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <div class="ocean">
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+    <nav class="navbar">
+        <div>
+            <a href="index.html">
+            <img src="img/sklogo.png"  alt="buisness logo"  width="100px" height="100px"/>
+            </a>
+            
+        </div>
+        
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li class="active"><a href="Contact.html">Contact</a></li>
+                
+            </ul>
+        </div>
+        <img src="img/menu-btn.png" alt="menu hamburger" class="menu-hamburger">
+    
+
+    </nav>
+    <footer>
+        <ul class="social_icon">
+            <li><a href="https://instagram.com/oouuss"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="https://lu.linkedin.com/in/oussama-laklay-707454174"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-behance"></ion-icon></a></li>
+        </ul>
+    </footer>
+
+    <header></header>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+<script>
+    const menuHamburger = document.querySelector(".menu-hamburger")
+        const navLinks = document.querySelector(".nav-links")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+</script>
+</html> 
+
+    
