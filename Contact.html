@@ -9,38 +9,19 @@
     <link rel="stylesheet" type="text/css" href="Contact.css">
 </head>
 <body>
-    <section class="get_in_touch">
-        <h1 class="title">Contactez Nous</h1>
+    <div class="container">
+  <h1>Formulaire </h1>
+  <form action="/action_page.php">
+    
+    
+    <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+    <input id="emailAddress" type="email" name="email" placeholder="Votre E-mail">
+     <h4><label for="subject">Message</label>
+    <textarea id="subject" name="subject" placeholder="+ info " style="height:200px"></textarea></h4>
 
-        <div class="container">
-            <div class="contact-form row">
-                <div class="form-field col-lg-6">
-                    <input name="name" class="input-text" placeholder="Nom Prénom">
-                    <label for="name" class="label"></label>
-                </div>
-                <div class="form-field col-lg-6">
-                    <input name="email" class="input-text" placeholder="Email">
-                    <label for="email" class="label"></label>
-                </div>
-                <div class="form-field col-lg-6">
-                    <input name="phone" class="input-text" placeholder="N° Téléphone">
-                    <label for="phone" class="label"></label>
-            
-                </div>
-                <div class="form-field col-lg-6">
-                    <input name="company" class="input-text" placeholder="Entreprise(facultatif)">
-                    <label for="company" class="label"></label>
-                </div>
-                <div class="form-field col-lg-12">
-                    <input name="message" class="input-text"  placeholder="Message">
-                    <label for="message" class="label"></label>
-                </div>
-                <div class="form-field col-lg-12">
-                    <input class="submit-btn" type="Submit" value="Envoyer" name="">
-                </div>
-            </div>
-        </div>
-    </section>
+    <input type="submit" value="Envoyer">
+  </form>
+</div>
   
     <div class="ocean">
         <div class="wave"></div>

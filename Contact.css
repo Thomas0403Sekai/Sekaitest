@@ -22,81 +22,63 @@ body {
   background: radial-gradient(ellipse at center, #fffeea 0%, #fffeea 35%, #b7e8eb 100%);
   overflow: hidden;
 }
-.get_in_touch {
-    max-width: 800px;
-    margin: 98px auto;
-    position: relative;
-    box-shadow: 0 10px 20px 0px rgba(0,0,0,0.1);
-    padding: 20px;
-}
-.get_in_touch .title {
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 3px;
-    font-size: 2em;
-    line-height: 48px;
-    padding-bottom: 20px;
-    color: #5543ca;
-    background: linear-gradient(to right, #1795a3 0%, #015871 100%);
-    background-clip: calc();
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-}
-.contact-form .form-field {
-    position: relative;
-    margin: 32px 0;
-}
-.contact-form .input-text {
-    display: block;
+input[type=text], textarea, input[type=email] {
     width: 100%;
-    height: 36px;
-    border-width: 0 0 1px 0;
-    border-color: #015871;
-    font-size: 18px;
-    line-height: 26px;
-    font-weight: 400;
-}
-.contact-form .input-text:focus + .label,
-.contact-form .input-text.not-empty + .label  {
-    color: #424242;
-    font-size: 0.75em;
-    top: -25px;
-    pointer-events: none;
-   
-}
-.contact-form .input-text:focus,
-.contact-form .input-text.not-empty {
-    border-bottom: 1px solid #424242;
-}
-.contact-form .input-text:focus {
-    outline: #015871;
-}
-.contact-form .label {
-    position: absolute;
-    left: 20px;
-    bottom: 11px;
-    font-size: 18px;
-    line-height: 26px;
-    font-weight: 400;
-    color: #015871;
-    cursor: text;
-    text-transform: capitalize;
-    transition: transform 0.3s ease-in;
-}
-
-.contact-form .submit-btn {
-    display: inline-block;
-    background-image: linear-gradient(125deg, #015871, #1795a3);
-    color: rgb(#fff);
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 16px;
-    padding: 8px 16px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    resize: vertical;
+  }
+  label{margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;}
+  
+  input[type=submit] {
+    background-color:#015871;
+    color: black;
+    padding: 12px 20px;
     border: none;
-    width: 200px;
+    border-radius: 4px;
     cursor: pointer;
-}
+  }
+  
+  input[type=submit]:hover {
+    background-color: #015871;
+  }
+  
+  .container {
+    /* Ajouter box-sizing */
+    position: relative;
+    box-sizing: border-box;
+    border-radius:5px;
+    background-color:#f2f2f200;
+    padding:20px;
+    width: 100%;
+    /* redéfinition 400 + 2*20 */
+    max-width: 440px;
+    margin: 143px auto;
+    background-color: #42424200;
+    
+  }
+  h1  {
+    color: #015871;
+    width: 100%;
+  }
+  h2{
+  color: black;
+  background-color: rgba(255, 255, 255, 0);
+    font-size: 16px;
+   }
+    h4{
+     color: black;
+      background-color: rgba(255, 255, 255, 0);
+    font-size: 16px;
+    }
 .ocean {
   height: 5%;
   width: 100%;
