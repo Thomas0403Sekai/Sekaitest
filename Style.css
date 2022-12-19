@@ -68,7 +68,19 @@ body {
 .endWave{
   display:none;
 }
-
+@Media screen and (max-width: 800px) {
+   .container {
+    width: 90%;
+    height: 100%;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    margin: 0 auto;
+   }
+   
+    
+    
+}
 
 
 Resources
