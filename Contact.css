@@ -86,50 +86,36 @@ input[type=text], textarea, input[type=email] {
       background-color: rgba(255, 255, 255, 0);
     font-size: 16px;
     }
-.ocean {
-  height: 5%;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background: #015871;
-}
 
-.wave {
-  background: url(https://cdn.kcak11.com/codepen_assets/wave_animation/wave.svg) repeat-x;
-  position: absolute;
-  top: -198px;
-  width: 6400px;
-  height: 198px;
-  animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
-  transform: translate3d(0, 0, 0);
-}
-
-.wave:nth-of-type(2) {
-  top: -175px;
-  animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite, swell 7s ease -1.25s infinite;
-  opacity: 1;
-}
-
-@keyframes wave {
-  0% {
-    margin-left: 0;
+@media screen and (max-width: 500px){
+  .form {
+    width: 50%;
   }
-  100% {
-    margin-left: -1600px;
+  .container{
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: -11px;
+    padding: -9px;
+    width: 100%;
+    max-width: 274px;
+    margin: 105px;
+    background-color: #42424200;
+    left: -15%;
+    box-shadow: 0 10px 50px 0px rgb(0 0 0 / 10%);
   }
+  
 }
-@keyframes swell {
-  0%,
-  100% {
-    transform: translate3d(0, -25px, 0);
-  }
-  50% {
-    transform: translate3d(0, 5px, 0);
+@media screen and (max-width: 1130px){
+  .h1 {
+    font-size: 20px;
   }
 }
-.endWave{
-  display:none;
+@media screen and (max-width: 1130px) {
+  .input[type=text], textarea, input[type=email] {
+    width: 90%;
+  }
 }
 
 
@@ -228,8 +214,15 @@ footer .social_icon li a:hover {
 @media screen and (max-width: 1130px) {
   .container{
     grid-template-columns: 1fr;
+    width: 90%;
   }
   
+}
+@media screen and (max-height: 700px){
+  .footer{
+    padding: 0;
+    top: 0;
+  }
 }
 @media screen and (max-width: 1130px) {
     .navbar {
