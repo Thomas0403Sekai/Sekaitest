@@ -169,6 +169,8 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: auto;
+    
+
   
     
 }
@@ -189,7 +191,7 @@ footer .social_icon li {
 }
 footer .social_icon li a {
     font-size: 2em;
-    color: #015871;
+    color: #fff;
     margin: 0 10px;
     display: inline-block;
     transition: 0.5s;
