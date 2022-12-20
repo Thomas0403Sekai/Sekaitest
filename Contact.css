@@ -112,11 +112,7 @@ input[type=text], textarea, input[type=email] {
     font-size: 20px;
   }
 }
-@media screen and (max-width: 1130px) {
-  .input[type=text], textarea, input[type=email] {
-    width: 90%;
-  }
-}
+
 
 
 
