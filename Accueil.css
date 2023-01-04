@@ -263,13 +263,13 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 836px;
+    min-height: 872px;
   }
 
   .u-section-1 .u-text-1 {
     font-size: 1.875rem;
     width: auto;
-    margin-top: 135px;
+    margin-top: 107px;
     margin-left: 0;
     margin-right: 0;
   }
@@ -302,66 +302,66 @@
   .u-section-1 .u-text-3 {
     letter-spacing: 0px;
     width: auto;
-    margin-top: 17px;
-    margin-right: 182px;
-    margin-left: 74px;
+    margin-top: 20px;
+    margin-right: 150px;
+    margin-left: 107px;
   }
 
   .u-section-1 .u-icon-1 {
     width: 54px;
     height: 54px;
-    margin-left: 17px;
+    margin-left: 50px;
   }
 
   .u-section-1 .u-text-4 {
-    width: 176px;
+    width: auto;
     margin-top: -18px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 50px;
+    margin-left: 115px;
   }
 
   .u-section-1 .u-text-5 {
     letter-spacing: 0px;
     width: auto;
     margin-top: 19px;
-    margin-right: 182px;
-    margin-left: 72px;
+    margin-right: 150px;
+    margin-left: 105px;
   }
 
   .u-section-1 .u-text-6 {
     letter-spacing: 0px;
     width: auto;
     margin-top: 47px;
-    margin-right: 182px;
-    margin-left: 71px;
+    margin-right: 150px;
+    margin-left: 104px;
   }
 
   .u-section-1 .u-icon-2 {
     width: 54px;
     height: 54px;
     margin-top: -96px;
-    margin-left: 17px;
+    margin-left: 50px;
   }
 
   .u-section-1 .u-text-7 {
-    width: 176px;
+    width: auto;
     margin-top: -22px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 50px;
+    margin-left: 115px;
   }
 
   .u-section-1 .u-icon-3 {
     width: 54px;
     height: 54px;
     margin-top: 21px;
-    margin-left: 17px;
+    margin-left: 50px;
   }
 
   .u-section-1 .u-text-8 {
-    width: 176px;
+    width: auto;
     margin-top: -19px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 50px;
+    margin-left: 115px;
   }
 }/* Google Font Import - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');

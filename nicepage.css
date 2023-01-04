@@ -39326,6 +39326,10 @@ a.u-link.u-text-hover-grey-90:hover {
   font-weight: 700;
 }
 
+.u-header .u-sidenav-1 {
+  padding: 0;
+}
+
 .u-header .u-nav-2 {
   font-size: 1.25rem;
 }
@@ -39343,7 +39347,20 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-menu-1 {
-    margin-bottom: 27px;
+    margin-top: -40px;
+    margin-bottom: 25px;
+  }
+
+  .u-header .u-sidenav-1 {
+    width: 366px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .u-header .u-nav-2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 174px auto 0;
   }
 }
  .u-footer {
