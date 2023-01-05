@@ -263,7 +263,7 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 880px;
+    min-height: 100vh;
   }
 
   .u-section-1 .u-text-1 {
@@ -360,6 +360,14 @@
     margin-top: -19px;
     margin-right: 30px;
     margin-left: 136px;
+  }
+}.u-section-2 .u-sheet-1 {
+  min-height: 59px;
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 20px;
   }
 }/* Google Font Import - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
