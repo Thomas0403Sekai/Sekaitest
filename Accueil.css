@@ -382,7 +382,6 @@
 
   .u-section-3 .u-list-1 {
     margin-top: 20px;
-    margin-bottom: initial;
   }
 
   .u-section-3 .u-repeater-1 {
@@ -417,7 +416,6 @@
 
   .u-section-3 .u-list-1 {
     width: 720px;
-    margin-bottom: 131px;
   }
 
   .u-section-3 .u-repeater-1 {
@@ -733,7 +731,7 @@
 }
 
 .u-section-5 .u-list-item-1 {
-  box-shadow: 5px 5px 11px 0px rgba(0,0,0,0.6);
+  box-shadow: 5px 5px 11px 0px rgba(225,34,71,0.6);
   --animation-custom_in-translate_x: 300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
@@ -767,7 +765,7 @@
 
 .u-section-5 .u-list-item-2 {
   background-image: none;
-  box-shadow: 5px 5px 11px 0px rgba(0,0,0,0.6);
+  box-shadow: 5px 5px 11px 0px rgba(225,34,71,0.6);
   --animation-custom_in-translate_x: 300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
@@ -801,7 +799,7 @@
 }
 
 .u-section-5 .u-list-item-3 {
-  box-shadow: 5px 5px 11px 0px rgba(0,0,0,0.6);
+  box-shadow: 5px 5px 11px 0px rgba(225,34,71,0.6);
   --animation-custom_in-translate_x: 300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
