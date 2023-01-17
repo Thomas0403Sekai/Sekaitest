@@ -39896,10 +39896,10 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-nav-1 {
+  font-weight: 400;
   font-size: 1.125rem;
-  letter-spacing: 0px;
-  font-weight: normal;
   text-transform: none;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
@@ -39947,13 +39947,8 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-menu-1 {
-    margin-top: 26px;
+    margin-top: 21px;
     margin-right: 0;
-  }
-
-  .u-header .u-nav-1 {
-    font-weight: 400;
-    letter-spacing: normal;
   }
 
   .u-header .u-sidenav-1 {
@@ -39967,7 +39962,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-text-1 {
     width: auto;
-    margin-top: -43px;
+    margin-top: -39px;
     margin-bottom: 37px;
     margin-left: 0;
   }
